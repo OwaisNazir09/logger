@@ -1,19 +1,15 @@
-# logger
-# express-request-logger
+# quick-express-logger
 
-A simple and lightweight Express middleware that logs details of incoming HTTP requests, including method, URL, client ID, and optionally a custom action tag.
-
-Ideal for quick debugging, monitoring, and tracing API requests in your Express.js applications.
+A lightweight Express middleware to log incoming HTTP requests with useful details like method, URL, client ID, and optional custom action tags.
 
 ## Features
 
-- Logs request method, URL, query params, request body, and headers
-- Supports custom `req.action` for tagging specific actions
-- Easy to integrate with any Express.js app
-- Zero dependencies and minimal footprint
+- Logs HTTP method, URL, headers, body, query, and params
+- Supports setting custom `req.action` for clearer log context
+- Easy to integrate with any Express app
+- Zero dependencies, minimal footprint
 
 ## Installation
 
 ```bash
-npm install express-request-logger
-
+npm install quick-express-logger
